@@ -5,7 +5,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Nicolai Fröhlich",
+            "name": "Nicolai FrÃ¶hlich",
             "email": "nico@nifr.de",
             "role": "maintainer"
         }
@@ -25,7 +25,8 @@
         "mayflower/php-codebrowser":   "dev-master",
         "sensiolabs/security-checker": "dev-master",
         "phploc/phploc":               "dev-master",
-        "behat/symfony2-extension":    "1.0.*@dev"
+        "behat/symfony2-extension":    "1.0.*@dev",
+        "sebastian/phpcpd":            "dev-master"
     },
     "minimum-stability": "dev",
     "config": { 
