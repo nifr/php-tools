@@ -19,18 +19,19 @@
         "fabpot/php-cs-fixer":         "dev-master",
         "phpunit/phpunit":             "3.7.x-dev",
         "phpunit/php-timer":           "1.0.x-dev",
-        "behat/behat":                 "dev-master",
+        "behat/behat":                 "2.4.x-dev",
+        "behat/symfony2-extension":    "1.0.*",
         "sami/sami":                   "dev-master",
         "apigen/apigen":               "dev-master",
         "mayflower/php-codebrowser":   "dev-master",
         "sensiolabs/security-checker": "dev-master",
         "phploc/phploc":               "dev-master",
-        "behat/symfony2-extension":    "1.0.*@dev",
         "sebastian/phpcpd":            "dev-master"
     },
     "minimum-stability": "dev",
     "config": { 
         "bin-dir":    "bin",
-        "vendor-dir": "lib"
+        "vendor-dir": "lib",
+        "preferred-install": "dist"
     }
 }
