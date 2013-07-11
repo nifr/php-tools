@@ -1,0 +1,35 @@
+{
+    "name": "froehlich/php-tools",
+    "description": "A set of commonly used PHP quality ensurance and testing tools.",
+    "homepage": "https://github.com/nifr/php-tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolai Fröhlich",
+            "email": "nico@nifr.de",
+            "role": "maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nifr/php-tools/issues"
+    },
+    "require": {
+        "squizlabs/php_codesniffer":   "dev-master",
+        "phpmd/phpmd":                 "dev-master",
+        "fabpot/php-cs-fixer":         "dev-master",
+        "phpunit/phpunit":             "3.7.x-dev",
+        "phpunit/php-timer":           "1.0.x-dev",
+        "behat/behat":                 "dev-master",
+        "sami/sami":                   "dev-master",
+        "apigen/apigen":               "dev-master",
+        "mayflower/php-codebrowser":   "dev-master",
+        "sensiolabs/security-checker": "dev-master",
+        "phploc/phploc":               "dev-master",
+        "behat/symfony2-extension":    "1.0.*@dev"
+    },
+    "minimum-stability": "dev",
+    "config": { 
+        "bin-dir":    "bin",
+        "vendor-dir": "lib"
+    }
+}
