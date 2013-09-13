@@ -1,37 +1,45 @@
 {
-    "name": "froehlich/php-tools",
+    "name":        "froehlich/php-tools",
     "description": "A set of commonly used PHP quality ensurance and testing tools.",
-    "homepage": "https://github.com/nifr/php-tools",
-    "license": "MIT",
+    "homepage":    "https://github.com/nifr/php-tools",
+    "license":     "MIT",
     "authors": [
         {
-            "name": "Nicolai Fröhlich",
+            "name":  "Nicolai Fröhlich",
             "email": "nico@nifr.de",
-            "role": "maintainer"
+            "role":  "maintainer"
         }
     ],
     "support": {
         "issues": "https://github.com/nifr/php-tools/issues"
     },
     "require": {
+        "composer/composer":           "dev-master",
         "squizlabs/php_codesniffer":   "dev-master",
         "phpmd/phpmd":                 "dev-master",
         "fabpot/php-cs-fixer":         "dev-master",
-        "phpunit/phpunit":             "3.7.x-dev",
-        "phpunit/php-timer":           "1.0.x-dev",
-        "behat/behat":                 "2.4.x-dev",
+        "phpunit/phpunit":             "3.7.25",
+        "phpunit/php-timer":           "1.0.5",
+        "behat/behat":                 "2.5.0",
         "behat/symfony2-extension":    "1.0.*",
-        "sami/sami":                   "dev-master",
+        "sami/sami":                   "1.1",
         "apigen/apigen":               "dev-master",
         "mayflower/php-codebrowser":   "dev-master",
         "sensiolabs/security-checker": "dev-master",
         "phploc/phploc":               "dev-master",
-        "sebastian/phpcpd":            "dev-master"
+        "sebastian/phpcpd":            "dev-master",
+        "igorw/composer-yaml":         "dev-master as dev-master"
     },
+    "repositories": [
+        {
+        "type": "vcs",
+        "url": "https://github.com/nifr/composer-yaml"
+        }
+    ],
     "minimum-stability": "dev",
     "config": { 
-        "bin-dir":    "bin",
-        "vendor-dir": "lib",
+        "bin-dir":           "bin",
+        "vendor-dir":        "lib",
         "preferred-install": "dist"
     }
 }
